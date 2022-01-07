@@ -1,10 +1,9 @@
 # Lets make a clock!
 
 # import the essential libraires
-from tkinter import *  # tkinter is an open source, portable graphical user interface (GUI) library
-from tkinter.ttk import *  # tkinter.ttk  provides access to the Tk themed widget set
-from time import \
-    strftime  # strftime() takes one or more format codes as an argument and returns a formatted string based on it
+from tkinter import *  
+from tkinter.ttk import *  
+from time import strftime  
 
 # create an UI for the clock. Create root window. Root window is the main application window in programs containing title bar and borders
 root = Tk()
